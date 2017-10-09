@@ -1,0 +1,32 @@
+.features {
+  margin-top: 60px;
+}
+
+.features__title {
+  font-family: $secondary-font-family;
+  font-size: 33px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.features__wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.features__subtitle {
+  color: #70cbda;
+  text-transform: uppercase;
+}
+
+.features__text {
+  color: #000000;
+  font-size: 17px;
+}
+
+.features__card {
+  max-width: 377px;
+}

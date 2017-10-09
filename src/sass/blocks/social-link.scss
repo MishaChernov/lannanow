@@ -1,0 +1,11 @@
+.social-link {
+  font-size: 0;
+  display: inline-block;
+  margin: 0 5px;
+  @include hover-effects;
+}
+
+.social-link__icon {
+  border: 1px solid black;
+  border-radius: 50%;
+}
