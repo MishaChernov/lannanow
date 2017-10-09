@@ -1,2 +1,0 @@
-# lannanow
-odesk work
