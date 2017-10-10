@@ -2,6 +2,7 @@
   margin: 0 auto;
   margin-bottom: 50px;
   background-color: #dddddd;
+  max-width: 880px;
 }
 
 .search-result__wrapper {
@@ -59,4 +60,8 @@
 
 .search-result__select option {
   padding: 20px;
+}
+
+@media (min-width: $width-lg-device) {
+
 }
