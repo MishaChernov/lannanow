@@ -63,9 +63,9 @@
 }
 
 .populars__name {
-  margin-left: 15px;
   text-transform: uppercase;
   margin-top: 5px;
+  text-align: center;
 }
 
 .populars__name--first {
@@ -182,13 +182,18 @@
   @include hover-effects;
 }
 
-.popular__img {
+.populars__img {
   margin: 0 auto;
 }
 
 @media (min-width: 500px) {
   .populars__card {
     margin: 0 10px;
+    margin-top: 20px;
     width: 300px;
+  }
+  .populars__name {
+    margin-left: 15px;
+    text-align: left;
   }
 }
