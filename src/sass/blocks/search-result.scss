@@ -1,13 +1,16 @@
 .search-result {
   margin: 0 auto;
+  margin-bottom: 50px;
+  background-color: #dddddd;
+}
+
+.search-result__wrapper {
   max-width: 880px;
   box-sizing: border-box;
-  background-color: #dddddd;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 50px;
 }
 
 .search-result__btn {
