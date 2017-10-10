@@ -11,9 +11,10 @@ $(function functionName() {
   var header = $(".page-header");
     $(window).scroll(function() {
 
-      var ser = $(".search");
+      var search = $(".search");
+      var searchResult = $(".search-result")
       var headerHeight = header.height();
-      var searchHeight = ser.height();
+      var searchHeight = search.height() || searchResult.height();
       var some = window.scrollY;
 
       if (some >= headerHeight - searchHeight) {

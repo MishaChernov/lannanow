@@ -11,12 +11,15 @@
 
 .item__img {
   max-width: 276px;
-  margin-right: 20px;
+  margin: 5px 5px;
   flex: 1;
 }
 
 .item__wrapper {
   flex: 1;
+  min-width: 290px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .item__description {
@@ -28,4 +31,10 @@
 
 .item__posted {
   font-size: 15px;
+}
+
+@media (min-width: 663px) {
+  .item__wrapper {
+    text-align: left;
+  }
 }

@@ -17,7 +17,21 @@
     width: 100%;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   }
+
   .search__btn {
     margin-bottom: 0;
+  }
+}
+
+@media (min-width: 679px) {
+  .page-header.fixed .search-result {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    transition-duration: 0.1s;
   }
 }

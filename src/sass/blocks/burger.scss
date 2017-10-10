@@ -70,4 +70,11 @@
   .burger {
     display: none;
   }
+  .main-menu__list {
+    display: block;
+
+    &--closed {
+      display: block !important;
+    }
+  }
 }
