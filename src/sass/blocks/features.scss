@@ -30,3 +30,9 @@
 .features__card {
   max-width: 377px;
 }
+
+@media (min-width: 380px) {
+  .features__img {
+    width: 377px;
+  }
+}
