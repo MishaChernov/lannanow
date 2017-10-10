@@ -14,7 +14,6 @@
 }
 
 button.slick-prev.slick-arrow {
-  z-index: 999;
   width: 20px !important;
   height: 20px !important;
 
@@ -41,14 +40,14 @@ button.slick-prev.slick-arrow {
   }
 
   button.slick-prev.slick-arrow {
-    z-index: 999;
     width: 50px !important;
     height: 50px !important;
   }
 
   .slick-prev, .slick-next {
-
+    z-index: 8 !important;
     &:before {
+
       content: "<";
       font-size: 50px !important;
       width: 50px !important;
