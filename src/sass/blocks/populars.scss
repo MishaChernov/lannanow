@@ -182,8 +182,13 @@
   @include hover-effects;
 }
 
+.popular__img {
+  margin: 0 auto;
+}
+
 @media (min-width: 500px) {
   .populars__card {
     margin: 0 10px;
+    width: 300px;
   }
 }
