@@ -1,7 +1,7 @@
 .main-menu {
   z-index: 9;
   padding: 0;
-  width: auto;
+  width: 100%;
   margin-top: 20px;
 
   background-color: #ffffff;
@@ -18,11 +18,15 @@
   margin-top: 30px;
 }
 
+.main-menu__icon {
+  transform: translateY(2px);
+}
+
 .main-menu__link {
   position: relative;
   display: block;
   padding: 20px 10px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   text-align: center;
 
   font-family: $primary-font-family;
@@ -39,7 +43,8 @@
     opacity: 0.5;
   }
   &--active {
-    color: $primary-btn-color;
+    color: #ffffff;
+    background-color: #99999e;
   }
 }
 
@@ -48,7 +53,7 @@
 }
 
 .main-menu__link--active .main-menu__icon {
-  fill: $primary-btn-color;
+  fill: #ffffff;
 }
 
 
@@ -57,6 +62,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: auto;
 
     background-color: inherit;
     box-shadow: none;
@@ -74,7 +80,7 @@
     display: inline-block;
     vertical-align: middle;
     padding: 7px 15px;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 5px;
     margin: 0 10px;
 
@@ -89,6 +95,13 @@
     &:active {
       opacity: 0.5;
     }
+    &--active {
+      background-color: #ffffff;
+      color: $primary-btn-color;
+    }
+  }
+  .main-menu__link--active .main-menu__icon {
+    fill: $primary-btn-color;
   }
   .main-menu__icon {
     position: absolute;

@@ -1,6 +1,7 @@
 .search {
   background-color: #515b62;
   text-align: center;
+  transition-duration: 0.5s;
 }
 
 .search__wrapper {
@@ -31,6 +32,7 @@
       position: absolute;
       bottom: 5px;
       left: 50px;
+      font-size: 14px;
       color: $primary-btn-color;
       display: inline;
     }
@@ -50,6 +52,7 @@
       position: absolute;
       bottom: 5px;
       left: 55px;
+      font-size: 14px;
       color: #9f9f9f;
       display: inline;
     }
