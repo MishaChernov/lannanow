@@ -1,6 +1,12 @@
 .aside {
   margin: 0 auto;
   margin-top: 20px;
+
+  &--search-page {
+    max-width: 324px;
+    margin: 0;
+    margin-left: auto;
+  }
 }
 
 .aside__item {
@@ -16,5 +22,22 @@
   }
   &--second {
     background-image: url("../img/aside-2.jpg");
+  }
+  &--bedroom {
+    width: 325px;
+    height: 95px;
+    margin-bottom: 5px;
+    background-image: url("../img/aside-3.jpg");
+  }
+  &--move {
+    width: 325px;
+    height: 95px;
+    margin-bottom: 5px;
+    background-image: url("../img/aside-4.jpg");
+  }
+  &--tree {
+    width: 325px;
+    height: 200px;
+    background-image: url("../img/aside-5.jpg");
   }
 }

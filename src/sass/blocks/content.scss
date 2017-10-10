@@ -1,0 +1,34 @@
+.content {
+  display: inline-block;
+  max-width: 818px;
+  box-sizing: border-box;
+  border-right: 2px solid #f2f2f3;
+}
+
+.content__title {
+  font-family: $secondary-font-family;
+  font-size: 23px;
+}
+
+.content__text {
+  color: #000000;
+  font-size: 18px;
+  padding-right: 120px;
+  margin-bottom: 60px;
+}
+
+.content__subtext {
+  display: inline-block;
+  vertical-align: baseline;
+  max-width: 690px;
+  box-sizing: border-box;
+  padding-right: 200px;
+  color: #a0a4a8;
+  font-size: 15px;
+}
+
+.content__link {
+  text-decoration: none;
+  color: $primary-btn-color;
+  @include hover-effects;
+}
