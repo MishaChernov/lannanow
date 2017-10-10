@@ -17,6 +17,8 @@ button.slick-prev.slick-arrow {
   z-index: 999;
   width: 20px !important;
   height: 20px !important;
+
+  @include hover-effects;
 }
 
 .slick-prev, .slick-next {
