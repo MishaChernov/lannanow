@@ -117,13 +117,13 @@
       <nav class="main-menu ">
         <button class="burger  burger--close">Open</button>
         <ul class="main-menu__list  main-menu__list--closed">
-          <a class="main-menu__link  main-menu__link--active">
+          <a class="main-menu__link" href="index.html">
             <svg class="main-menu__icon" width="30" height="25">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#house-1"></use>
             </svg>
             Main
           </a>
-          <a class="main-menu__link" href="searchresults.html">
+          <a class="main-menu__link  main-menu__link--active">
             <svg class="main-menu__icon" width="30" height="25">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#house-3"></use>
             </svg>
@@ -169,132 +169,225 @@
         <a class="advertaise-us__btn" href="#">Advertaise with us</a>
       </div>
     </div>
-    <form class="search" action="/">
-      <div class="search__wrapper  container">
-        <label class="search__label  search__label--input">
-          <input class="search__input" type="text" placeholder="Fukuoka" required name="Fukuoka1">
-        </label>
-        <label class="search__label  search__label--input">
-          <input class="search__input" placeholder="Fukuoka" required name="Fukuoka2">
-        </label>
-        <label class="search__label  search__label--select">
-          <select class="search__select" required>
-            <option selected>1 aduit, 0 children</option>
-            <option>Lorem</option>
-            <option>Lorem</option>
-            <option>Lorem</option>
-          </select>
-        </label>
-        <input class="search__btn" type="submit" value="Search" name="search">
-      </div>
+
+    <form class="search-result  container" action="/">
+      <input class="search-result__btn" type="submit" value="search property" name="Search property">
+      <label class="search-result__label  search-result__label--select">
+        <span class="search-result__label-text">BrandItem Align</span>
+        <select class="search-result__select" required>
+          <option selected>Left</option>
+          <option>Lorem</option>
+          <option>Lorem</option>
+          <option>Lorem</option>
+        </select>
+      </label>
+      <label class="search-result__label  search-result__label--select">
+        <span class="search-result__label-text">LeftItem Align</span>
+        <select class="search-result__select" required>
+          <option selected>Left</option>
+          <option>Lorem</option>
+          <option>Lorem</option>
+          <option>Lorem</option>
+        </select>
+      </label>
+      <label class="search-result__label  search-result__label--select">
+        <span class="search-result__label-text">RightItem Align</span>
+        <select class="search-result__select" required>
+          <option selected>Left </option>
+          <option>Lorem</option>
+          <option>Lorem</option>
+          <option>Lorem</option>
+        </select>
+      </label>
     </form>
   </header>
 
-  <main class="page-main  container">
-    <section class="features">
-      <h1 class="features__title  title">Featured properties</h1>
+  <main class="page-main  page-main--search-page  container">
+    <section class="content">
+      <h1 class="content__title">Detached Homes in Doi Saket, Chiang Mai</h1>
+      <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus repellendus laudantium dicta iusto atque ab suscipit! Dolorum nulla quasi suscipit delectus architecto recusandae, vitae illo, maiores, esse quos voluptatibus mollitia?</p>
 
-      <div class="features__wrapper">
-        <article class="features__card">
-          <img class="features__img" src="img/features.jpg" width="300" alt="Lorem">
-          <h2 class="features__subtitle">Nulla quis lacus turpis</h2>
-          <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, corrupti minus necessitatibus, nesciunt non sint. Distinctio obcaecati voluptatum in corporis, excepturi, officiis ratione sit nihil quibusdam id quis nostrum vitae.</p>
-        </article>
+      <p class="content__subtext">
+        <a class="content__link" href="#">2 Results</a> For Compensation, Injury & Insurance Lawyers & Solicitors in & Around Rouse Hull, 2155
+      </p>
 
-        <article class="features__card">
-          <img class="features__img" src="img/features.jpg" width="300" alt="Lorem">
-          <h2 class="features__subtitle">Nulla quis lacus turpis</h2>
-          <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, corrupti minus necessitatibus, nesciunt non sint. Distinctio obcaecati voluptatum in corporis, excepturi, officiis ratione sit nihil quibusdam id quis nostrum vitae.</p>
-        </article>
+      <select class="sort" name="sort" class="content__sort">
+        <option value="sort by...">Sort by...</option>
+        <option value="sort by...">Lorem</option>
+        <option value="sort by...">Lorem</option>
+      </select>
 
-        <article class="features__card">
-          <img class="features__img" src="img/features.jpg" width="300" alt="Lorem">
-          <h2 class="features__subtitle">Nulla quis lacus turpis</h2>
-          <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, corrupti minus necessitatibus, nesciunt non sint. Distinctio obcaecati voluptatum in corporis, excepturi, officiis ratione sit nihil quibusdam id quis nostrum vitae.</p>
-        </article>
+      <article class="item">
+        <img class="item__img" src="img/features.jpg" width="276" alt="Dai Saket">
+
+        <div class="item__wrapper">
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Detached Home</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Chiang Mai</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Doi Saket</a>
+            </li>
+          </ul>
+
+          <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ea molestiae quam excepturi, modi beatae, ullam error possimus facilis magnam officia minima sint accusamus maxime voluptate voluptas deleniti suscipit vitae?</p>
+
+          <cite class="item__posted">Posted on September 17th, 2017</cite>
+        </div>
+      </article>
+
+      <article class="item">
+        <img class="item__img" src="img/features.jpg" width="276" alt="Dai Saket">
+
+        <div class="item__wrapper">
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Detached Home</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Chiang Mai</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Doi Saket</a>
+            </li>
+          </ul>
+
+          <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ea molestiae quam excepturi, modi beatae, ullam error possimus facilis magnam officia minima sint accusamus maxime voluptate voluptas deleniti suscipit vitae?</p>
+
+          <cite class="item__posted">Posted on September 17th, 2017</cite>
+        </div>
+      </article>
+
+      <article class="item">
+        <img class="item__img" src="img/features.jpg" width="276" alt="Dai Saket">
+
+        <div class="item__wrapper">
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Detached Home</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Chiang Mai</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Doi Saket</a>
+            </li>
+          </ul>
+
+          <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ea molestiae quam excepturi, modi beatae, ullam error possimus facilis magnam officia minima sint accusamus maxime voluptate voluptas deleniti suscipit vitae?</p>
+
+          <cite class="item__posted">Posted on September 17th, 2017</cite>
+        </div>
+      </article>
+
+      <article class="item">
+        <img class="item__img" src="img/features.jpg" width="276" alt="Dai Saket">
+
+        <div class="item__wrapper">
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Detached Home</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Chiang Mai</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Doi Saket</a>
+            </li>
+          </ul>
+
+          <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ea molestiae quam excepturi, modi beatae, ullam error possimus facilis magnam officia minima sint accusamus maxime voluptate voluptas deleniti suscipit vitae?</p>
+
+          <cite class="item__posted">Posted on September 17th, 2017</cite>
+        </div>
+      </article>
+
+      <article class="item">
+        <img class="item__img" src="img/features.jpg" width="276" alt="Dai Saket">
+
+        <div class="item__wrapper">
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Detached Home</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Chiang Mai</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link  breadcrumbs__link--active">Doi Saket</a>
+            </li>
+          </ul>
+
+          <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ea molestiae quam excepturi, modi beatae, ullam error possimus facilis magnam officia minima sint accusamus maxime voluptate voluptas deleniti suscipit vitae?</p>
+
+          <cite class="item__posted">Posted on September 17th, 2017</cite>
+        </div>
+      </article>
+
+      <div class="paginations">
+        <span class="paginations__name">Pages</span>
+        <a class="paginations__page  paginations__page--active" href="#">1</a>
+        <a class="paginations__page" href="#">2</a>
+        <a class="paginations__next-page" href="#">Next</a>
       </div>
     </section>
 
-    <section class="populars">
-      <div class="populars__cards">
-        <article class="populars__card">
-          <h2 class="populars__subtitle  populars__subtitle--first">Popular in chiang mai</h2>
-          <img class="populars__img" src="img/features.jpg" width="287" alt="Lorem">
-          <h3 class="populars__name  populars__name--first">Woman's fashion in 2015</h3>
-          <p class="populars__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, corrupti minus necessitatibus, nesciunt non sint. Distinctio obcaecati voluptatum in corporis, excepturi, officiis ratione sit nihil quibusdam id quis nostrum vitae.</p>
-          <ul class="popular__list  popular__list--first">
-            <li class="popular__item">An Elegant Photoshoot</li>
-            <li class="popular__item">Trends In interior Design</li>
-            <li class="popular__item">Exploring Morern Architecture</li>
-          </ul>
-          <a class="popular__btn" href="#">View all properties in Chiang Mai</a>
-        </article>
-
-        <article class="populars__card">
-          <h2 class="populars__subtitle  populars__subtitle--second">Popular in chiang mai</h2>
-          <img class="populars__img" src="img/features.jpg" width="287" alt="Lorem">
-          <h3 class="populars__name  populars__name--second">Reaching the summit</h3>
-          <p class="populars__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, corrupti minus necessitatibus, nesciunt non sint. Distinctio obcaecati voluptatum in corporis, excepturi, officiis ratione sit nihil quibusdam id quis nostrum vitae.</p>
-          <ul class="popular__list  popular__list--second">
-            <li class="popular__item">Salling Around The World</li>
-            <li class="popular__item">Beautiful Black and White</li>
-            <li class="popular__item">Hiking Trall Review</li>
-          </ul>
-          <a class="popular__btn" href="#">View all properties in Chiang Mai</a>
-        </article>
-
-        <article class="populars__card">
-          <h2 class="populars__subtitle  populars__subtitle--third">Popular in chiang mai</h2>
-          <img class="populars__img" src="img/features.jpg" width="287" alt="Lorem">
-          <h3 class="populars__name  populars__name--third">Beautiful bouquets</h3>
-          <p class="populars__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, corrupti minus necessitatibus, nesciunt non sint. Distinctio obcaecati voluptatum in corporis, excepturi, officiis ratione sit nihil quibusdam id quis nostrum vitae.</p>
-          <ul class="popular__list  popular__list--third">
-            <li class="popular__item">Visual Guide To Herbs</li>
-            <li class="popular__item">The Super Salads Recipe</li>
-            <li class="popular__item">The Art Of Honey</li>
-          </ul>
-          <a class="popular__btn" href="#">View all properties in Chiang Mai</a>
-        </article>
-      </div>
-
-      <div class="aside">
-        <a class="aside__item  aside__item--first" href="#">Advert brown</a>
-        <a class="aside__item  aside__item--second" href="#">Advert cher</a>
-      </div>
-    </section>
+    <aside class="aside  aside--search-page">
+      <a class="aside__item  aside__item--bedroom" href="#">Bedroom</a>
+      <a class="aside__item  aside__item--move" href="#">Move in</a>
+      <a class="aside__item  aside__item--tree" href="#">The tree</a>
+    </aside>
 
     <section class="advanced">
       <a class="advanced__item  advanced__item--first" href="#">Advert Mono</a>
       <a class="advanced__item  advanced__item--second " href="#">Advert Infinite.co.th</a>
     </section>
 
-    <section class="community">
-      <div class="community__wrapper">
-        <h2 class="community__title">Latest community reviews</h2>
+    <section class="reviews">
+      <h2 class="reviews__title">Other Reviews in Chiang Mai</h2>
 
-        <article class="community__card">
-          <img class="community__img" src="img/features.jpg" width="250" alt="Lorem">
-          <h3 class="community__name">Nulla quis lacus turpis</h3>
-        </article>
+      <figure class="reviews__figure">
+        <img class="reviews__img" src="img/features.jpg" width="274" alt="Chiang Mai">
+        <figcaption class="reviews__caption">
+          <h3 class="reviews__name">Польский костел</h3>
+          <cite class="reviews__posted">Posted on September 17th, 2017</cite>
+        </figcaption>
+      </figure>
 
-        <article class="community__card">
-          <img class="community__img" src="img/features.jpg" width="250" alt="Lorem">
-          <h3 class="community__name">Nulla quis lacus turpis</h3>
-        </article>
+      <figure class="reviews__figure">
+        <img class="reviews__img" src="img/features.jpg" width="274" alt="Chiang Mai">
+        <figcaption class="reviews__caption">
+          <h3 class="reviews__name">Польский костел</h3>
+          <cite class="reviews__posted">Posted on September 17th, 2017</cite>
+        </figcaption>
+      </figure>
 
-        <article class="community__card">
-          <img class="community__img" src="img/features.jpg" width="250" alt="Lorem">
-          <h3 class="community__name">Nulla quis lacus turpis</h3>
-        </article>
-      </div>
+      <figure class="reviews__figure">
+        <img class="reviews__img" src="img/features.jpg" width="274" alt="Chiang Mai">
+        <figcaption class="reviews__caption">
+          <h3 class="reviews__name">Польский костел</h3>
+          <cite class="reviews__posted">Posted on September 17th, 2017</cite>
+        </figcaption>
+      </figure>
 
-      <aside class="sale">
-        <h2 class="sale__title">Sale / Rent Board</h2>
-        <a class="sale__link" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ducimus deleniti, voluptate expedita accusamus ut, sint quaerat hic illo dicta! Obcaecati distinctio, fugit facilis optio. Quidem distinctio illum consequatur corporis.</a>
-        <a class="sale__link" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ducimus deleniti, voluptate expedita accusamus ut, sint quaerat hic illo dicta! Obcaecati distinctio, fugit facilis optio. Quidem distinctio illum consequatur corporis.</a>
-        <a class="sale__link" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ducimus deleniti, voluptate expedita accusamus ut, sint quaerat hic illo dicta! Obcaecati distinctio, fugit facilis optio. Quidem distinctio illum consequatur corporis.</a>
-        <a class="sale__link" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ducimus deleniti, voluptate expedita accusamus ut, sint quaerat hic illo dicta! Obcaecati distinctio, fugit facilis optio. Quidem distinctio illum consequatur corporis.</a>
-      </aside>
+      <figure class="reviews__figure">
+        <img class="reviews__img" src="img/features.jpg" width="274" alt="Chiang Mai">
+        <figcaption class="reviews__caption">
+          <h3 class="reviews__name">Польский костел</h3>
+          <cite class="reviews__posted">Posted on September 17th, 2017</cite>
+        </figcaption>
+      </figure>
+
+      <figure class="reviews__figure">
+        <img class="reviews__img" src="img/features.jpg" width="274" alt="Chiang Mai">
+        <figcaption class="reviews__caption">
+          <h3 class="reviews__name">Польский костел</h3>
+          <cite class="reviews__posted">Posted on September 17th, 2017</cite>
+        </figcaption>
+      </figure>
     </section>
   </main>
 
