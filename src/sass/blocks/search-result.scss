@@ -33,6 +33,14 @@
   text-align: left;
 
   @include hover-effects;
+  &:hover {
+    opacity: 1;
+    background-color: #2ddbb8;
+  }
+  &:active {
+    opacity: 1;
+    color: $primary-btn-color;
+  }
 }
 
 .search-result__label {
