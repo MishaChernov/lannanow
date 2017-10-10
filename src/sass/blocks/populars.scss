@@ -16,8 +16,8 @@
 }
 
 .populars__card {
-  width: 288px;
-  margin: 0 10px;
+  min-width: 280px;
+  margin: 0;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
@@ -176,8 +176,14 @@
   text-decoration: none;
   font-size: 18px;
   padding: 20px 5px;
-  width: 100%;
+  width: auto;
   background-color: #3bbea4;
 
   @include hover-effects;
+}
+
+@media (min-width: 500px) {
+  .populars__card {
+    margin: 0 10px;
+  }
 }
